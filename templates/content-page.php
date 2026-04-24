@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Contenido de Página
  * Template part for displaying page content
  *
  * @package hello-trompo

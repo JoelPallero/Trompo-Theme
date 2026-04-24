@@ -1,16 +1,12 @@
 <?php
 /**
- * Front page template
+ * The front page template file
  *
  * @package hello-trompo
  */
+
 get_header();
-?>
 
-<?php
-// Reutilizamos la home del tema (sin obligar al usuario a asignar un template manualmente).
-get_template_part('templates/home', 'trompo');
-?>
+get_template_part('templates/home-bodegas');
 
-<?php get_footer(); ?>
-
+get_footer();
